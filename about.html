@@ -11,7 +11,11 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>About Sabrina Seitz</title>
+    <title>Sabrina Seitz | About me</title>
+    <meta
+      name="description"
+      content="Front-end developer based in Munich on the lookout for new adventures, assignments and jobs. Contact me now!"
+    />
   </head>
   <body>
     <!-- Navbar -->
@@ -31,9 +35,19 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-            <a class="nav-link active" href="about.html">About me</a>
-            <a class="nav-link" href="about.html#contact">Contact me</a>
+            <a
+              class="nav-link"
+              title="Go home"
+              aria-current="page"
+              href="index.html"
+              >Home</a
+            >
+            <a class="nav-link active" title="Learn more" href="about.html"
+              >About me</a
+            >
+            <a class="nav-link" title="Email me" href="about.html#contact"
+              >Contact me</a
+            >
           </div>
         </div>
       </div>
@@ -54,18 +68,21 @@
           <img
             src="images/yoga.png"
             class="img-fluid rounded shadow p-2 img-about mb-3"
+            alt="Screenshot Yoga App"
           />
         </div>
         <div class="col-sm-4">
           <img
             src="images/weather.png"
             class="img-fluid rounded shadow p-2 img-about mb-3"
+            alt="Screenshot Weather App"
           />
         </div>
         <div class="col-sm-4">
           <img
             src="images/yogurt.png"
             class="img-fluid rounded shadow p-2 mb-3"
+            alt="Screenshot Yogurt Website"
           />
         </div>
       </div>
@@ -73,7 +90,10 @@
     <!-- Contact section -->
     <div id="contact" class="mt-5">
       <h2 class="text-center">📮 Contact me</h2>
-      <a href="mailto:sabrina.seitz@gmail.com" class="email-link"
+      <a
+        href="mailto:sabrina.seitz@gmail.com"
+        title="Looking forward to your email!"
+        class="email-link"
         >sabrina.seitz@gmail.com</a
       >
     </div>
