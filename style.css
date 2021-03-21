@@ -117,7 +117,8 @@ p {
     text-align: center;
   }
 
-  .primary-link {
+  .primary-link,
+  .secondary-link {
     display: block;
     max-width: 100%;
     text-align: center;
